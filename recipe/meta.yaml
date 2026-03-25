@@ -1,5 +1,5 @@
 {% set name = "sagemaker-gen-ai-jupyterlab-extension" %}
-{% set version = "1.0.14" %}
+{% set version = "1.0.15" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sagemaker_gen_ai_jupyterlab_extension-{{ version }}.tar.gz
-  sha256: 4ee26c05fe036fd5a74b707cb9ff307ec07e0122b052b728ffd719cceb193d5c
+  sha256: 256fbb2f9fd0682f9e42f290fe683992ca6d9cd341086d3564689663810564da
 
 build:
   noarch: python
